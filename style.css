@@ -1,0 +1,150 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(330, 100%, 98%);
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  /* font-weight: 400; */
+  font-style: normal;
+}
+
+.outfit-uniquifier {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  /* font-weight: 400; */
+}
+
+.container {
+  margin: 100px auto;
+  border-radius: 20px;
+  width: 70%;
+  background-color: white;
+  padding: 30px;
+}
+
+.container .header h1 {
+  margin: 20px 0px;
+}
+
+/* .container .header img{
+    transition: .5s all ease-in-out;
+  }
+  .container .header img:hover{
+    transform: scale(1.05);
+    transition: .5s all ease;
+  } */
+.container .rose {
+  margin: 20px 0px;
+  padding: 20px;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 15px;
+}
+
+.container .rose h3 {
+  color: hsl(14, 45%, 36%);
+  padding-bottom: 15px;
+}
+
+.container .rose ul {
+  padding-left: 22px;
+}
+
+.rose ul li {
+  padding: 5px;
+  padding-left: 25px;
+}
+
+.component h1 {
+  padding-bottom: 15px;
+  color: hsl(14, 45%, 36%);
+}
+
+.component ul li {
+  padding: 5px;
+  padding-left: 25px;
+}
+
+.component ul {
+  padding-left: 22px;
+}
+
+.hr1 {
+  margin: 30px 0px;
+  opacity: 30%;
+}
+
+.inst h1 {
+  color: hsl(14, 45%, 36%);
+}
+
+.inst ol {
+  padding: 25px;
+  line-height: 25px;
+}
+
+.inst li {
+  padding: 5px;
+}
+
+.bottom {
+  margin-top: 30px;
+}
+
+.bottom p {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.bottom h1 {
+  color: hsl(14, 45%, 36%);
+}
+
+.hr3 {
+  padding: 5px 0px;
+}
+
+.img-container {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.img-container img{
+  transition: .5s linear;
+}
+.img-container img:hover{
+  transform: scale(1.1);
+  transition: .5s linear;
+  
+}
+::marker {
+  color: hsl(14, 45%, 36%);
+}
+.component li{
+  list-style: square;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+.hr2{
+  margin: 10px 0px;
+}
+.child1{
+  margin-left: 30px;
+}
+.child2{
+  width: 50%;
+  padding-left: 30px;
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
